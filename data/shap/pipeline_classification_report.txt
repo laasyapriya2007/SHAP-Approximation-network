@@ -1,0 +1,21 @@
+                       precision    recall  f1-score   support
+
+             Backdoor     0.9901    1.0000    0.9950       100
+            DDoS_HTTP     0.7810    0.8200    0.8000       100
+            DDoS_ICMP     1.0000    1.0000    1.0000       100
+             DDoS_TCP     1.0000    1.0000    1.0000       100
+             DDoS_UDP     1.0000    1.0000    1.0000       100
+       Fingerprinting     1.0000    0.9900    0.9950       100
+                 MITM     1.0000    1.0000    1.0000        50
+               Normal     1.0000    1.0000    1.0000       100
+             Password     0.9551    0.8500    0.8995       100
+        Port_Scanning     1.0000    1.0000    1.0000       100
+           Ransomware     1.0000    1.0000    1.0000       100
+        SQL_injection     0.9158    0.8700    0.8923       100
+            Uploading     0.9278    0.9000    0.9137       100
+Vulnerability_scanner     0.9900    0.9900    0.9900       100
+                  XSS     0.8772    1.0000    0.9346       100
+
+             accuracy                         0.9600      1450
+            macro avg     0.9625    0.9613    0.9613      1450
+         weighted avg     0.9612    0.9600    0.9600      1450
